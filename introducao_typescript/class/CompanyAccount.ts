@@ -2,7 +2,7 @@ import { DioAccount} from "./DioAccount.js";
 
 export class CompanyAccount extends DioAccount{
     
-    constructor(name: string, accountNumber: Number){
+    constructor(name: string, accountNumber: number){
         super(name, accountNumber);
     }
 

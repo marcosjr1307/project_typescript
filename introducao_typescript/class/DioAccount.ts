@@ -3,7 +3,7 @@ export abstract class DioAccount{
     private readonly accountNumber: number;
     balance: number = 0;
 
-    constructor(name: string, accountNumber: Number){
+    constructor(name: string, accountNumber: number){
         this.name = name;
         this.accountNumber = accountNumber;
     }
